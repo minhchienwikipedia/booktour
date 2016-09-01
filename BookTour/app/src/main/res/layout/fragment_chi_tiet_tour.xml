@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="4"
+
+    tools:context="com.minhchien.fithou.booktour.mFragment.Fragment_ChiTietTour">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ListView
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvTour"></ListView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Gọi"
+            android:id="@+id/btnGoi"
+            android:layout_weight="1"
+            android:background="@color/accent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginLeft="5dp"
+            android:text="Đặt Tour"
+            android:background="@color/accent"
+            android:id="@+id/btnDatTour"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>
