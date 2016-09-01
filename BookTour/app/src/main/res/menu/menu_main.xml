@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_timkiem"
+        android:title="Tìm Kiếm"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:actionViewClass="android.support.v7.widget.SearchView"></item>
+    <item
+        android:id="@+id/action_goi"
+        android:title="Gọi"
+        android:icon="@drawable/ic_call_black_24dp"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:actionViewClass="android.support.v7.widget.SearchView"></item>
+    <!--<item-->
+        <!--android:id="@+id/action_sapxep_gia_thap"-->
+        <!--android:title="Sắp Xếp Giá (Thấp -> Cao)"-->
+        <!--android:icon="@drawable/ic_sapxep"></item>-->
+    <!--<item-->
+        <!--android:id="@+id/action_sapxep_gia_cao"-->
+        <!--android:title="Sắp Xếp Giá (Cao -> Thấp)"-->
+        <!--android:icon="@drawable/ic_sapxep"></item>-->
+    <!--<item-->
+        <!--android:id="@+id/action_sapxep_tieude"-->
+        <!--android:title="Sắp Xếp Tên"-->
+        <!--android:icon="@drawable/ic_sapxep"></item>-->
+</menu>
